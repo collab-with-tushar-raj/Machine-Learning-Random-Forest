@@ -17,19 +17,6 @@ df.head()
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -122,19 +109,6 @@ df.describe()
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -330,7 +304,8 @@ sb.pairplot(data=df)
 
 
     
-![png](CST-4050-Component2_files/CST-4050-Component2_11_1.png)
+![image](https://github.com/collab-with-tushar-raj/Machine-Learning-Random-Forest/assets/39027684/4411551c-f38e-46af-a95f-0136dc55378e)
+
     
 
 
@@ -364,7 +339,8 @@ sb.histplot(df['Life_Expectancy'])
 
 
     
-![png](CST-4050-Component2_files/CST-4050-Component2_15_1.png)
+![image](https://github.com/collab-with-tushar-raj/Machine-Learning-Random-Forest/assets/39027684/83d563c6-3507-4c60-a5b5-33467ed1bec1)
+
     
 
 
@@ -387,19 +363,6 @@ df.describe()
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -536,7 +499,8 @@ sb.boxplot(data=df['Life_Expectancy'])
 
 
     
-![png](CST-4050-Component2_files/CST-4050-Component2_19_1.png)
+![image](https://github.com/collab-with-tushar-raj/Machine-Learning-Random-Forest/assets/39027684/9b16740e-b414-465b-bdaa-12be4c058113)
+
     
 
 
@@ -578,19 +542,6 @@ feature_data.describe()
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -735,7 +686,8 @@ sb.heatmap(corr, annot = True)
 
 
     
-![png](CST-4050-Component2_files/CST-4050-Component2_29_1.png)
+![image](https://github.com/collab-with-tushar-raj/Machine-Learning-Random-Forest/assets/39027684/780caf4d-4b4a-4ca7-aee2-059ae3ec3e8c)
+
     
 
 
@@ -762,7 +714,8 @@ sb.heatmap(corr, annot = True)
 
 
     
-![png](CST-4050-Component2_files/CST-4050-Component2_31_1.png)
+![image](https://github.com/collab-with-tushar-raj/Machine-Learning-Random-Forest/assets/39027684/1ec36350-9615-457b-abf7-f85468d24486)
+
     
 
 
@@ -786,19 +739,6 @@ df
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1052,19 +992,6 @@ df_pre_tune.head()
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1126,7 +1053,8 @@ sb.lmplot(data=df_pre_tune, x="actual", y="fitted")
 
 
     
-![png](CST-4050-Component2_files/CST-4050-Component2_47_1.png)
+![image](https://github.com/collab-with-tushar-raj/Machine-Learning-Random-Forest/assets/39027684/666d51ca-f0d3-4829-9cee-efdbe01e2f74)
+
     
 
 
@@ -1317,19 +1245,6 @@ df_post_tune.head()
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1390,7 +1305,8 @@ sb.lmplot(data=df_post_tune, x="actual", y="fitted")
 
 
     
-![png](CST-4050-Component2_files/CST-4050-Component2_67_1.png)
+![image](https://github.com/collab-with-tushar-raj/Machine-Learning-Random-Forest/assets/39027684/6b90685b-df3d-449c-a82e-c6db334bf01f)
+
     
 
 
@@ -1410,19 +1326,6 @@ residuals_df.head()
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1478,7 +1381,8 @@ sb.lineplot(data=residuals_df, palette=['red', 'blue'])
 
 
     
-![png](CST-4050-Component2_files/CST-4050-Component2_70_1.png)
+![image](https://github.com/collab-with-tushar-raj/Machine-Learning-Random-Forest/assets/39027684/26b3cd31-6303-46f2-932b-c90622cb9dca)
+
     
 
 
@@ -1545,7 +1449,8 @@ sb.barplot(
 
 
     
-![png](CST-4050-Component2_files/CST-4050-Component2_80_1.png)
+![image](https://github.com/collab-with-tushar-raj/Machine-Learning-Random-Forest/assets/39027684/5a250ddb-c5a9-4d42-adaf-f7764f988640)
+
     
 
 
